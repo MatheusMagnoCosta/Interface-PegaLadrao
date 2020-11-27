@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './bootstrap/css/bootstrap.css'
 import './index.css';
 import Menu from './components/menu/Menu';
 
@@ -7,6 +8,9 @@ import Menu from './components/menu/Menu';
 ReactDOM.render(
   <div>
     <Menu />
+    <div class="alert alert-primary" role="alert">
+      A simple primary alert—check it out!
+</div>
     <div class="conteiner">
       <div class="content">
         <h1> Bem-Vindo(a)!</h1>
