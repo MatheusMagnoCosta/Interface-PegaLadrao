@@ -1,27 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
+/*IMPORTANDO BOOTSTRAP E STYLESHEET*/
 import './bootstrap/css/bootstrap.css'
-import './index.css';
-import Menu from './components/menu/Menu';
+import './css/style.css';
+
 
 
 ReactDOM.render(
   <div>
-    <Menu />
-    <div class="alert alert-primary" role="alert">
-      A simple primary alert—check it out!
-</div>
-    <div class="conteiner">
-      <div class="content">
-        <h1> Bem-Vindo(a)!</h1>
-        <p>
-          <em> Pega Ladrão </em> é um site de denúncia de ocorrências policiais.
-        Nós queremos informar para você o quão seguro ou não pode ser um determinado local .
-        Aqui você pode ir registrando todas as ocorrências que acontecerem com você, além de
-        ter acesso a ocorrência de outras pessoas.
-      </p>
-      </div>
-    </div>
+    <h1>FAÇA SUA ARTE AQUI</h1>
   </div>,
   document.getElementById('root')
 );
